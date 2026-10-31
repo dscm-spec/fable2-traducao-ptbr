@@ -5,15 +5,18 @@ The game is otherwise very playable. Thanks for the work!
 
 ## Symptoms
 
-The game crashes at random right after confirming a menu action. Seen 3 times:
+The game crashes right after confirming a menu action. Seen 4 times:
 
 | Log | Action | Faulting read |
 |---|---|---|
 | refii_008 | Real estate → *Adjust Rent* → confirm with **Enter** (1st confirm) | `0x8181818B` |
 | refii_011 | Real estate → *Adjust Rent* → confirm with **Enter** (crashed after a few successful confirms) | `0x08000020` |
-| refii_012 | Inventory → *use* item | `0x04000000` |
+| refii_012 | Inventory → *use* item (dog collar, record `0xEBA28BE0`) | `0x04000000` |
+| refii_014 | Inventory → *use* the **same** dog collar again (record `0xEBA28BE0`), crash thread 0x4228 = t16936 | `0x9C000042` |
 
 Confirming *Adjust Rent* with the **mouse** went fine in 7 confirms (44 rent screen events, 0 crashes). We are not sure whether that is a real difference or luck. Both paths log the same `ScreenAction:37:root`.
+
+**Reproducible:** using the dog collar item (`Inventory:use` → record `0xEBA28BE0`) crashed both times it was tried, in two separate sessions. Other items used in the same sessions (records `0xB1438C5E`, `0x6C08E94A`, `0xD9FBA191`, `0x320485CE`) were fine. So the item path may be deterministic for this item rather than a pure race.
 
 ## The common pattern
 
@@ -25,6 +28,7 @@ Confirming *Adjust Rent* with the **mouse** went fine in 7 confirms (44 rent scr
    - refii_008: t7048 = crash thread 0x1B88
    - refii_011: t14688 = 0x3960
    - refii_012: t9120 = 0x23A0
+   - refii_014: t16936 = 0x4228
    - It is also the thread that parses the config flags at startup, so it looks like the main/Godot thread.
 4. The faulting addresses look like garbage: `0x8181818B` looks like a fill pattern, and the other two are round values.
 

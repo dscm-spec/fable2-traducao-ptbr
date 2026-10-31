@@ -1,0 +1,45 @@
+# refii_014.log: ~40 lines before the crash (friends/audio/net filtered)
+[2026-10-31 01:09:14.349] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:14.349] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:14.349] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:15.413] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:15.413] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:15.414] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:16.476] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:16.477] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:16.477] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:16.645] [info] [core] [t13848] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 01:09:16.944] [info] [core] [t13848] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 01:09:17.533] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:17.533] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:17.533] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:17.695] [info] [core] [t13848] Refii guest SwitchToThread spin probe total=13100000 from_present_throttle=0 backoff_sleeps=2341792 last_lr=0x82277348
+[2026-10-31 01:09:18.592] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:18.592] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:18.592] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:19.210] [info] [core] [t16936] Refii host camera [pushed] mgr=0x4215ED80 pos=(162.50,232.95,34.24) fwd=(-0.97,-0.14,-0.20) hfov=1.309
+[2026-10-31 01:09:19.418] [info] [core] [t13848] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 01:09:19.646] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:19.646] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:19.646] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:20.017] [info] [core] [t13848] Refii guest-tick pump: dispatching 'UiCue:game:slideup' (1 of 1 this tick)
+[2026-10-31 01:09:20.475] [info] [core] [t13848] Refii guest-tick pump: dispatching 'Inventory:viewed:36' (1 of 1 this tick)
+[2026-10-31 01:09:20.475] [info] [core] [t13848] Refii guest-tick pump: ran 'Inventory:viewed:36' on the guest tick thread
+[2026-10-31 01:09:20.655] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:20.655] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:20.655] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:21.434] [info] [core] [t13848] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 2 this tick)
+[2026-10-31 01:09:21.434] [info] [core] [t13848] Refii guest-tick pump: dispatching 'Inventory:viewed:46' (2 of 2 this tick)
+[2026-10-31 01:09:21.434] [info] [core] [t13848] Refii guest-tick pump: ran 'Inventory:viewed:46' on the guest tick thread
+[2026-10-31 01:09:21.447] [info] [core] [t11632] Refii null-frame: frames=42901 views warmed=2 boxes stated=2219 refused nodes=0 objects=0
+[2026-10-31 01:09:21.709] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000004, value=00000056)
+[2026-10-31 01:09:21.709] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00000005, value=00000056)
+[2026-10-31 01:09:21.709] [info] [krnl] [t13848] XGIUserSetContextEx(user=00000000, context=00008001, value=00000000)
+[2026-10-31 01:09:22.395] [info] [core] [t13848] Refii guest-tick pump: dispatching 'Inventory:use:3953298400' (1 of 2 this tick)
+[2026-10-31 01:09:22.405] [info] [core] [t13848] Refii guest-tick pump: Inventory:use ran on item 0x407DDDD0 (record 0xEBA28BE0) — no GUI event, no screen
+[2026-10-31 01:09:22.405] [info] [core] [t13848] Refii guest-tick pump: ran 'Inventory:use:3953298400' on the guest tick thread
+[2026-10-31 01:09:22.405] [info] [core] [t13848] Refii guest-tick pump: dispatching 'UiCue:game:select' (2 of 2 this tick)
+[2026-10-31 01:09:22.410] [error] [sys] [t16936] Unhandled guest access violation: read of guest 0x9C000042 (host 0x000000019C000042) on thread 0x4228
+
+# world sprites lines per thread
+      3 [t16936]
