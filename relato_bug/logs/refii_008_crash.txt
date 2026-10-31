@@ -1,0 +1,41 @@
+[2026-10-30 22:55:17.507] [info] [core] [t1472] Refii guest-tick pump: ran 'ScreenAction:37:root' on the guest tick thread
+[2026-10-30 22:55:17.636] [info] [core] [t12392] Refii view pre-warm stated for view 0x4C2FEE70 (#3) — the guest's synchronous LOD walk did not run
+[2026-10-30 22:55:17.854] [info] [core] [t1472] Refii guest-tick pump: HUD shown — root slide 1 played on HUD presentation 0x4C3264A0 (a screen closed), mode object left shown/idle
+[2026-10-30 22:55:19.498] [info] [core] [t7048] Refii world sprites: 1 vector entry (1 sprite-class, 0 other; first other vtable/ptr 0x00000000) at wim=0x425DCCF0 [0x4064A640..0x4064A648)
+[2026-10-30 22:55:23.068] [info] [core] [t7048] Refii world sprites: 2 vector entries (2 sprite-class, 0 other; first other vtable/ptr 0x00000000) at wim=0x425DCCF0 [0x4064A640..0x4064A650)
+[2026-10-30 22:55:32.417] [info] [core] [t1472] Refii guest-tick pump: dispatching 'ScreenAction:37:root' (1 of 1 this tick)
+[2026-10-30 22:55:32.417] [info] [core] [t1472] Refii guest-tick pump: ScreenAction:37 on screen 28 with atRoot=1 written to Float1 — the guest's own predicate cannot compute it
+[2026-10-30 22:55:32.424] [info] [core] [t1472] Refii guest-tick pump: ran 'ScreenAction:37:root' on the guest tick thread
+[2026-10-30 22:55:32.570] [info] [core] [t12392] Refii view pre-warm stated for view 0x4C2FEE70 (#4) — the guest's synchronous LOD walk did not run
+[2026-10-30 22:55:34.212] [info] [core] [t7048] Refii world sprites: 1 vector entry (1 sprite-class, 0 other; first other vtable/ptr 0x00000000) at wim=0x425DCCF0 [0x4064A640..0x4064A648)
+[2026-10-30 22:55:39.286] [info] [core] [t7048] Refii world sprites: 2 vector entries (2 sprite-class, 0 other; first other vtable/ptr 0x00000000) at wim=0x425DCCF0 [0x4064A640..0x4064A650)
+[2026-10-30 22:56:03.131] [info] [core] [t1472] Refii guest-tick pump: dispatching 'MenuEvent:Comprar e Alugar:112:0' (1 of 1 this tick)
+[2026-10-30 22:56:03.131] [info] [core] [t1472] Refii guest-tick pump: dispatching 'Comprar e Alugar' (type 112, id 0x00000000) straight to screen 28's handler 0x826B2210
+[2026-10-30 22:56:03.140] [info] [core] [t1472] Refii guest-tick pump: 'Comprar e Alugar' RETURNED from the screen handler
+[2026-10-30 22:56:03.140] [info] [core] [t1472] Refii guest-tick pump: ran 'MenuEvent:Comprar e Alugar:112:0' on the guest tick thread
+[2026-10-30 22:56:04.886] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:46' (1 of 1 this tick)
+[2026-10-30 22:56:04.894] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:46' on the guest tick thread
+[2026-10-30 22:56:04.969] [info] [core] [t7048] Refii world sprites: 4 vector entries (4 sprite-class, 0 other; first other vtable/ptr 0x00000000) at wim=0x425DCCF0 [0x409E33B0..0x409E33D0)
+[2026-10-30 22:56:05.036] [info] [core] [t12392] Refii view pre-warm stated for view 0x4C2FEE70 (#5) — the guest's synchronous LOD walk did not run
+[2026-10-30 22:56:05.385] [info] [core] [t1472] Refii guest-tick pump: HUD shown — root slide 1 played on HUD presentation 0x4C3264A0 (a screen closed), mode object left shown/idle
+[2026-10-30 22:56:10.534] [info] [core] [t1472] Refii guest-tick pump: dispatching 'MenuEvent:Ajustar Aluguel:117:0' (1 of 1 this tick)
+[2026-10-30 22:56:10.534] [info] [core] [t1472] Refii guest-tick pump: dispatching 'Ajustar Aluguel' (type 117, id 0x00000000) straight to screen 28's handler 0x826B2210
+[2026-10-30 22:56:10.541] [info] [core] [t1472] Refii guest-tick pump: 'Ajustar Aluguel' RETURNED from the screen handler
+[2026-10-30 22:56:10.541] [info] [core] [t1472] Refii guest-tick pump: ran 'MenuEvent:Ajustar Aluguel:117:0' on the guest tick thread
+[2026-10-30 22:56:11.835] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 22:56:11.835] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 22:56:12.273] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 22:56:12.273] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 22:56:12.405] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 22:56:12.405] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 22:56:12.499] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 22:56:12.499] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 22:56:12.605] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 22:56:12.605] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 22:56:13.538] [info] [core] [t1472] Refii guest-tick pump: dispatching 'QueryAnswer:46' (1 of 1 this tick)
+[2026-10-30 22:56:13.539] [info] [core] [t1472] Refii guest-tick pump: ran 'QueryAnswer:46' on the guest tick thread
+[2026-10-30 22:56:19.372] [info] [core] [t1472] Refii guest-tick pump: dispatching 'ScreenAction:37:root' (1 of 1 this tick)
+[2026-10-30 22:56:19.372] [info] [core] [t1472] Refii guest-tick pump: ScreenAction:37 on screen 28 with atRoot=1 written to Float1 — the guest's own predicate cannot compute it
+[2026-10-30 22:56:19.378] [info] [core] [t1472] Refii guest-tick pump: ran 'ScreenAction:37:root' on the guest tick thread
+[2026-10-30 22:56:19.383] [error] [sys] [t7048] Unhandled guest access violation: read of guest 0x8181818B (host 0x000000018181818B) on thread 0x1B88
+     18 [t7048] Refii world sprites

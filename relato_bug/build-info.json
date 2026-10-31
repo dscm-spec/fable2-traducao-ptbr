@@ -1,0 +1,9 @@
+{
+  "game_hash": "15FDC853849C8409EE08214C0DC387B1482942A53A95E34618425F9291A9B4E4",
+  "build_inputs": "BE036E64C2345A63D9562C0E117DBB792E9A1F67CD7D20C704592A0491721922",
+  "mods_hash": "",
+  "compiler": "zig 0.16.0",
+  "generator": "rexglue 0.10.0.0-dev.unknown",
+  "platform": "win-x64",
+  "built_utc": "2026-10-29T02:03:04Z"
+}

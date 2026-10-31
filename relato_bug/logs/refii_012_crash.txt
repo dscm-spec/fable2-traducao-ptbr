@@ -1,0 +1,41 @@
+[2026-10-31 00:38:09.129] [info] [core] [t2884] Refii stream 0x40A6FE70: guest called slot +12 (Read) — call #2
+[2026-10-31 00:38:09.130] [info] [core] [t2884] Refii stream 0x40A6FE70: guest called slot +12 (Read) — call #3
+[2026-10-31 00:38:09.130] [info] [core] [t2884] Refii stream 0x40A6FE70: guest called slot +40 (Dtor) — call #1
+[2026-10-31 00:38:17.566] [info] [core] [t14220] Refii pool stream-in exec #24 item=0x42A15D10 success=1 hash=0x74B6B226 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x0002787C flags28=0x00000110 mode104=2 sel112=2 off48=0x00000054
+[2026-10-31 00:38:17.566] [info] [core] [t14220] Refii pool stream-in exec #25 item=0x42A16410 success=1 hash=0xACF6E156 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x00023620 flags28=0x00000110 mode104=2 sel112=2 off48=0x00000054
+[2026-10-31 00:38:17.851] [info] [core] [t2884] Refii stream 0x40AD8E10: guest called slot +16 (ReadAsync) — call #1
+[2026-10-31 00:38:17.884] [info] [core] [t2884] Refii stream 0x40AD8290: guest called slot +40 (Dtor) — call #1
+[2026-10-31 00:38:17.885] [info] [core] [t2884] Refii stream 0x40AD8290: guest called slot +40 (Dtor) — call #2
+[2026-10-31 00:38:17.908] [info] [core] [t14220] Refii pool stream-in exec #26 item=0x42A16410 success=1 hash=0x74B6B226 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x0002787C flags28=0x00000110 mode104=2 sel112=0 off48=0x00000054
+[2026-10-31 00:38:17.908] [info] [core] [t14220] Refii pool stream-in exec #27 item=0x42A15D10 success=1 hash=0xACF6E156 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x00023620 flags28=0x00000110 mode104=1 sel112=0 off48=0x00000054
+[2026-10-31 00:38:18.086] [info] [core] [t14220] Refii pool stream-in exec #28 item=0x42A15D10 success=1 hash=0x96699C2C off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x0002F534 flags28=0x00000110 mode104=2 sel112=2 off48=0x00000054
+[2026-10-31 00:38:18.086] [info] [core] [t14220] Refii pool stream-in exec #29 item=0x42A16410 success=1 hash=0xF341EBE4 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x00030A0C flags28=0x00000110 mode104=2 sel112=2 off48=0x00000054
+[2026-10-31 00:38:18.153] [info] [core] [t14220] Refii pool stream-in exec #30 item=0x42A16410 success=1 hash=0x96699C2C off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x0002F534 flags28=0x00000110 mode104=2 sel112=0 off48=0x00000054
+[2026-10-31 00:38:18.153] [info] [core] [t14220] Refii pool stream-in exec #31 item=0x42A15D10 success=1 hash=0xF341EBE4 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x00030A0C flags28=0x00000110 mode104=1 sel112=0 off48=0x00000054
+[2026-10-31 00:38:18.442] [info] [core] [t14220] Refii pool stream-in exec #32 item=0x42A15D10 success=1 hash=0x1F316AC7 off8=0x00000000 sz12=0xFFFFFFFF sz16=0x00000002 off20=0x00008444 flags28=0x000000F0 mode104=2 sel112=1 off48=0x00000054
+[2026-10-31 00:38:20.969] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:21.131] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:21.272] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:21.400] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:21.736] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:22.339] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:23.164] [info] [core] [t8712] Refii guest-tick pump: dispatching 'Ability:hover:0' (1 of 1 this tick)
+[2026-10-31 00:38:23.164] [info] [core] [t8712] Refii guest-tick pump: ran 'Ability:hover:0' on the guest tick thread
+[2026-10-31 00:38:24.171] [info] [core] [t8712] Refii guest-tick pump: dispatching 'ScreenAction:37:root' (1 of 1 this tick)
+[2026-10-31 00:38:24.171] [info] [core] [t8712] Refii guest-tick pump: ScreenAction:37 on screen 14 with atRoot=1 written to Float1 — the guest's own predicate cannot compute it
+[2026-10-31 00:38:24.186] [info] [core] [t8712] Refii guest-tick pump: ran 'ScreenAction:37:root' on the guest tick thread
+[2026-10-31 00:38:24.771] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:26.603] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 1 this tick)
+[2026-10-31 00:38:26.936] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slideup' (1 of 1 this tick)
+[2026-10-31 00:38:27.100] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slideup' (1 of 1 this tick)
+[2026-10-31 00:38:27.306] [info] [core] [t8712] Refii guest-tick pump: dispatching 'Inventory:viewed:28' (1 of 1 this tick)
+[2026-10-31 00:38:27.306] [info] [core] [t8712] Refii guest-tick pump: ran 'Inventory:viewed:28' on the guest tick thread
+[2026-10-31 00:38:29.940] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:slidedown' (1 of 2 this tick)
+[2026-10-31 00:38:29.940] [info] [core] [t8712] Refii guest-tick pump: dispatching 'Inventory:viewed:46' (2 of 2 this tick)
+[2026-10-31 00:38:29.940] [info] [core] [t8712] Refii guest-tick pump: ran 'Inventory:viewed:46' on the guest tick thread
+[2026-10-31 00:38:32.063] [info] [core] [t8712] Refii guest-tick pump: dispatching 'Inventory:use:3953298400' (1 of 2 this tick)
+[2026-10-31 00:38:32.071] [info] [core] [t8712] Refii guest-tick pump: Inventory:use ran on item 0x40684750 (record 0xEBA28BE0) — no GUI event, no screen
+[2026-10-31 00:38:32.071] [info] [core] [t8712] Refii guest-tick pump: ran 'Inventory:use:3953298400' on the guest tick thread
+[2026-10-31 00:38:32.071] [info] [core] [t8712] Refii guest-tick pump: dispatching 'UiCue:game:select' (2 of 2 this tick)
+[2026-10-31 00:38:32.080] [error] [sys] [t9120] Unhandled guest access violation: read of guest 0x04000000 (host 0x0000000104000000) on thread 0x23A0
+    649 [t9120] Refii world sprites

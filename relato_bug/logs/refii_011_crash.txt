@@ -1,0 +1,41 @@
+[2026-10-30 23:13:40.969] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 23:13:41.174] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:46' (1 of 1 this tick)
+[2026-10-30 23:13:41.174] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:46' on the guest tick thread
+[2026-10-30 23:13:42.194] [info] [core] [t924] Refii guest-tick pump: dispatching 'MenuEvent:Ajustar Aluguel:117:0' (1 of 1 this tick)
+[2026-10-30 23:13:42.194] [info] [core] [t924] Refii guest-tick pump: dispatching 'Ajustar Aluguel' (type 117, id 0x00000000) straight to screen 28's handler 0x826B2210
+[2026-10-30 23:13:42.200] [info] [core] [t924] Refii guest-tick pump: 'Ajustar Aluguel' RETURNED from the screen handler
+[2026-10-30 23:13:42.200] [info] [core] [t924] Refii guest-tick pump: ran 'MenuEvent:Ajustar Aluguel:117:0' on the guest tick thread
+[2026-10-30 23:13:43.968] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:29' (1 of 1 this tick)
+[2026-10-30 23:13:43.968] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:29' on the guest tick thread
+[2026-10-30 23:13:44.797] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 23:13:44.797] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 23:13:45.170] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 23:13:45.170] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 23:13:45.435] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 23:13:45.435] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 23:13:45.734] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:46' (1 of 1 this tick)
+[2026-10-30 23:13:45.734] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:46' on the guest tick thread
+[2026-10-30 23:13:47.928] [info] [core] [t924] Refii guest-tick pump: dispatching 'ScreenAction:37:root' (1 of 1 this tick)
+[2026-10-30 23:13:47.929] [info] [core] [t924] Refii guest-tick pump: ScreenAction:37 on screen 28 with atRoot=1 written to Float1 — the guest's own predicate cannot compute it
+[2026-10-30 23:13:47.935] [info] [core] [t924] Refii guest-tick pump: ran 'ScreenAction:37:root' on the guest tick thread
+[2026-10-30 23:13:48.099] [info] [core] [t10436] Refii view pre-warm stated for view 0x4C31F5D0 (#2) — the guest's synchronous LOD walk did not run
+[2026-10-30 23:13:48.238] [info] [core] [t924] Refii guest-tick pump: HUD shown — root slide 1 played on HUD presentation 0x4C280B80 (a screen closed), mode object left shown/idle
+[2026-10-30 23:13:52.699] [info] [core] [t10436] Refii view pre-warm stated for view 0x4C31F5D0 (#3) — the guest's synchronous LOD walk did not run
+[2026-10-30 23:13:57.020] [info] [core] [t14688] Refii host: guest 0x3F800000 (+4) is not readable — uncommitted or freed; reading zeroes instead of faulting (#1048576 this run)
+[2026-10-30 23:13:58.033] [info] [core] [t924] Refii guest-tick pump: dispatching 'MenuEvent:Ajustar Aluguel:117:0' (1 of 1 this tick)
+[2026-10-30 23:13:58.033] [info] [core] [t924] Refii guest-tick pump: dispatching 'Ajustar Aluguel' (type 117, id 0x00000000) straight to screen 28's handler 0x826B2210
+[2026-10-30 23:13:58.039] [info] [core] [t924] Refii guest-tick pump: 'Ajustar Aluguel' RETURNED from the screen handler
+[2026-10-30 23:13:58.039] [info] [core] [t924] Refii guest-tick pump: ran 'MenuEvent:Ajustar Aluguel:117:0' on the guest tick thread
+[2026-10-30 23:14:03.841] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:29' (1 of 1 this tick)
+[2026-10-30 23:14:03.842] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:29' on the guest tick thread
+[2026-10-30 23:14:04.968] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 23:14:04.968] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 23:14:05.531] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:28' (1 of 1 this tick)
+[2026-10-30 23:14:05.531] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:28' on the guest tick thread
+[2026-10-30 23:14:06.530] [info] [core] [t924] Refii guest-tick pump: dispatching 'QueryAnswer:46' (1 of 1 this tick)
+[2026-10-30 23:14:06.530] [info] [core] [t924] Refii guest-tick pump: ran 'QueryAnswer:46' on the guest tick thread
+[2026-10-30 23:14:10.075] [info] [core] [t924] Refii guest-tick pump: dispatching 'ScreenAction:37:root' (1 of 1 this tick)
+[2026-10-30 23:14:10.075] [info] [core] [t924] Refii guest-tick pump: ScreenAction:37 on screen 28 with atRoot=1 written to Float1 — the guest's own predicate cannot compute it
+[2026-10-30 23:14:10.081] [info] [core] [t924] Refii guest-tick pump: ran 'ScreenAction:37:root' on the guest tick thread
+[2026-10-30 23:14:10.088] [error] [sys] [t14688] Unhandled guest access violation: read of guest 0x08000020 (host 0x0000000108000020) on thread 0x3960
+      2 [t14688] Refii world sprites

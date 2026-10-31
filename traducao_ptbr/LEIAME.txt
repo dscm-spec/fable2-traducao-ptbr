@@ -1,0 +1,30 @@
+TRADUCAO PT-BR - Fable 2: Return to Albion
+==========================================
+Textos, menus, missoes, dicas, legendas e dialogos em portugues do Brasil.
+Nomes proprios mantidos no original. Conquistas continuam em ingles (vem de outro arquivo).
+
+O mod tem DUAS partes, porque o jogo usa os textos em dois lugares:
+  1) traducao_ptbr.f2mod  -> interface do launcher (Refii)
+  2) book.babel do jogo   -> tudo que o jogo original mostra (menus, legendas, dialogos)
+     Esse arquivo e gerado na sua maquina, a partir do SEU book.babel original.
+     Nenhum arquivo do jogo e distribuido aqui.
+
+INSTALACAO (com o jogo/launcher FECHADO)
+1. Copie traducao_ptbr.f2mod para:
+     <pasta do jogo>\assets\mods\
+2. Abra o PowerShell nesta pasta e rode (troque o caminho pelo seu):
+     powershell -ExecutionPolicy Bypass -File instalar_textos_jogo.ps1 -Game "D:\Jogos\Fable 2 Return to Albion"
+   Na primeira vez ele guarda uma copia do original como book.babel.original (nesta pasta).
+   Para testar sem instalar, acrescente -DryRun.
+3. Abra o jogo.
+
+DESINSTALAR
+- Apague assets\mods\traducao_ptbr.f2mod
+- Copie book.babel.original (desta pasta) de volta para:
+     <pasta do jogo>\assets\game\data\language\en-uk\text\book.babel
+
+O script nao mexe em saves nem no refii.toml.
+Feito para a build do Refii de 2026-10-29. Se o jogo atualizar e trocar o book.babel,
+rode o passo 2 de novo. Se o arquivo original for de outra versao o script avisa e para.
+
+Autores: Douglas + Claude (Anthropic)
