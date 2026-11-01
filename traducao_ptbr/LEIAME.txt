@@ -1,5 +1,5 @@
-TRADUCAO PT-BR - Fable 2: Return to Albion
-==========================================
+TRADUCAO PT-BR - Fable 2: Return to Albion  (versao 1.2)
+=========================================================
 Textos, menus, missoes, dicas, legendas e dialogos em portugues do Brasil.
 Nomes proprios mantidos no original. Conquistas continuam em ingles (vem de outro arquivo).
 
@@ -29,5 +29,16 @@ DESINSTALAR
 O script nao mexe em saves nem no refii.toml.
 Feito para o Refii Beta 6 (2026-10-24). Se o jogo atualizar e trocar o book.babel,
 rode o passo 2 de novo. Se o arquivo original for de outra versao o script avisa e para.
+
+ATUALIZAR DE UMA VERSAO ANTERIOR
+- Repita os passos 1 e 2. Antes do passo 2, copie o book.babel.original que o
+  script guardou na pasta da versao anterior para esta pasta (o book.babel do
+  jogo ja esta traduzido e o script so aceita partir do original).
+
+NOVIDADES
+1.2 - Pular cerca/beirada aparecia como "Cofre" (Vault); agora "Pular".
+      Versao do mod no launcher atualizada para 1.2.0.
+1.1 - Titulo do mod corrigido; passo de ativar o mod na tela de Mods.
+1.0 - Primeira versao.
 
 Autores: Douglas + Claude (Anthropic)

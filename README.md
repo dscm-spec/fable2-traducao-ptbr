@@ -5,6 +5,8 @@ Os nomes próprios ficam no original. As conquistas continuam em inglês, porque
 
 **Download:** pegue o `traducao_ptbr_fable2.zip` em [Releases](../../releases) ou a pasta [`traducao_ptbr`](traducao_ptbr). As instruções estão no [`LEIAME.txt`](traducao_ptbr/LEIAME.txt). Depois de instalar, confira na tela de **Mods** do launcher se a tradução está **ativada**.
 
+**Versão 1.2:** o comando de pular cerca/beirada ("Vault") aparecia como "Cofre" e agora aparece como "Pular". A versão do mod no launcher passa a mostrar 1.2.0. Para atualizar, repita os passos 1 e 2 do LEIAME, levando o `book.babel.original` da pasta da versão anterior para a nova antes do passo 2.
+
 Este repositório não distribui nenhum arquivo do jogo. O script gera o `book.babel` traduzido a partir do `book.babel` original da sua própria cópia, e não mexe em saves nem no `refii.toml`.
 
 ## English
