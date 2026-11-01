@@ -16,7 +16,10 @@ INSTALACAO (com o jogo/launcher FECHADO)
      powershell -ExecutionPolicy Bypass -File instalar_textos_jogo.ps1 -Game "D:\Jogos\Fable 2 Return to Albion"
    Na primeira vez ele guarda uma copia do original como book.babel.original (nesta pasta).
    Para testar sem instalar, acrescente -DryRun.
-3. Abra o jogo.
+3. Abra o launcher, va na tela de Mods e confira se "Traducao PT-BR" esta
+   ATIVADO (de preferencia o primeiro da lista: o primeiro vence conflitos).
+   Um mod copiado/instalado pode entrar desativado.
+4. Abra o jogo.
 
 DESINSTALAR
 - Apague assets\mods\traducao_ptbr.f2mod
@@ -24,7 +27,7 @@ DESINSTALAR
      <pasta do jogo>\assets\game\data\language\en-uk\text\book.babel
 
 O script nao mexe em saves nem no refii.toml.
-Feito para a build do Refii de 2026-10-29. Se o jogo atualizar e trocar o book.babel,
+Feito para o Refii Beta 6 (2026-10-24). Se o jogo atualizar e trocar o book.babel,
 rode o passo 2 de novo. Se o arquivo original for de outra versao o script avisa e para.
 
 Autores: Douglas + Claude (Anthropic)
